@@ -1,10 +1,10 @@
 function calcular(){
     var fnote = document.querySelector(".fnote").value;
-    var snote = document.querySelector("#snote").value;
+    var snote = document.querySelector(".snote").value;
     var lnote = document.querySelector(".lnote").value;
    var resultado=document.getElementById("resultado")
    var resultado2=document.getElementById("resultado2")
-    var calculo = (parseInt(fnote) + parseInt(snote) + parseInt(lnote))  / 2;
+    var calculo = (parseInt(fnote) + parseInt(snote) + parseInt(lnote))  / 3;
     var resultadofinal = calculo.value
    resultado.textContent="Sua media foi de "+resultadofinal
    if(resultadofinal < 10){
